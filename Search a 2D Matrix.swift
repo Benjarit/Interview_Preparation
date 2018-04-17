@@ -28,8 +28,6 @@ class Solution {
         if (matrix.count == 0) || (matrix[0].count == 0) {
             return false
         }
-       
-       
             var mid: Int
             var l: Int = 0
             var h: Int = matrix.count-1
