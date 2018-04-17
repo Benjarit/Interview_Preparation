@@ -20,9 +20,6 @@ Given target = 3, return true.
 
 */
 
-
-
-
 class Solution {
    func searchMatrix(_ matrix: [[Int]], _ target: Int) -> Bool {
         if (matrix.count == 0) || (matrix[0].count == 0) {
